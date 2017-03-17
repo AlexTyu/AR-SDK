@@ -896,7 +896,7 @@ OVR_PUBLIC_FUNCTION(void) ovrHmd_EndFrame(ovrHmd hmd,
 ///   and pass the index where applicable to functions called on the  rendering thread.
 /// - hmdToEyeViewOffset[2] can be ovrEyeRenderDesc.HmdToEyeViewOffset returned from 
 ///   ovrHmd_ConfigureRendering or ovrHmd_GetRenderDesc. For monoscopic rendering,
-///   use a vector that is the average of the two vectors for both eyes.
+///   use a vector that is the average of the two vectors for both eyes
 /// - If frameIndex is not being utilized, pass in 0.
 /// - Assuming outEyePoses are used for rendering, it should be passed into ovrHmd_EndFrame.
 /// - If caller doesn't need outHmdTrackingState, it can be passed in as NULL
@@ -963,6 +963,8 @@ typedef struct ovrDistortionMesh_
     unsigned int         IndexCount;  ///< The number of indices in the mesh.
 } ovrDistortionMesh;
 
+    
+//Вероятно тут
 /// Generate distortion mesh per eye.
 /// Distortion capabilities will depend on 'distortionCaps' flags. Users should 
 /// render using the appropriate shaders based on their settings.

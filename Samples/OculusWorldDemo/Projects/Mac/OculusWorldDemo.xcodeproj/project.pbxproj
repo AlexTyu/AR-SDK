@@ -10,7 +10,6 @@
 		160739C31A3FC87600BC3261 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 160739C11A3FC87600BC3261 /* tinyxml2.cpp */; };
 		160739CA1A3FC8CB00BC3261 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 160739C61A3FC8CB00BC3261 /* Player.cpp */; };
 		160739CB1A3FC8CB00BC3261 /* OculusWorldDemo_Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 160739C71A3FC8CB00BC3261 /* OculusWorldDemo_Scene.cpp */; };
-		160739CC1A3FC8CB00BC3261 /* OculusWorldDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 160739C81A3FC8CB00BC3261 /* OculusWorldDemo.cpp */; };
 		160739CE1A3FC90900BC3261 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 160739CD1A3FC90900BC3261 /* Assets */; };
 		16073A0A1A3FC97200BC3261 /* Oculus.icns in Resources */ = {isa = PBXBuildFile; fileRef = 160739D11A3FC97200BC3261 /* Oculus.icns */; };
 		16073A0F1A3FC97200BC3261 /* OSX_Gamepad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 160739DB1A3FC97200BC3261 /* OSX_Gamepad.cpp */; };
@@ -26,6 +25,7 @@
 		16073A231A3FC97200BC3261 /* RenderProfiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16073A081A3FC97200BC3261 /* RenderProfiler.cpp */; };
 		16073A271A3FCBE900BC3261 /* CameraCalibration.json in Resources */ = {isa = PBXBuildFile; fileRef = 16073A261A3FCBE900BC3261 /* CameraCalibration.json */; };
 		707BF3EE1A8EF54700720128 /* LibOVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707BF3ED1A8EF54700720128 /* LibOVR.framework */; };
+		913E498B1E7B791A00A1FF22 /* OculusWorldDывываываывemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 913E498A1E7B791A00A1FF22 /* OculusWorldDывываываывemo.cpp */; };
 		E8CC57CB1908266300EEEC84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CC57CA1908266300EEEC84 /* Cocoa.framework */; };
 		E8E0A57619085FC60077EB8E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E0A57519085FC60077EB8E /* AudioToolbox.framework */; };
 		E8E0A57819085FE50077EB8E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E0A57719085FE50077EB8E /* OpenGL.framework */; };
@@ -38,7 +38,6 @@
 		160739C51A3FC8CB00BC3261 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../../Player.h; sourceTree = "<group>"; };
 		160739C61A3FC8CB00BC3261 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../../Player.cpp; sourceTree = "<group>"; };
 		160739C71A3FC8CB00BC3261 /* OculusWorldDemo_Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OculusWorldDemo_Scene.cpp; path = ../../OculusWorldDemo_Scene.cpp; sourceTree = "<group>"; };
-		160739C81A3FC8CB00BC3261 /* OculusWorldDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OculusWorldDemo.cpp; path = ../../OculusWorldDemo.cpp; sourceTree = "<group>"; };
 		160739C91A3FC8CB00BC3261 /* OculusWorldDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OculusWorldDemo.h; path = ../../OculusWorldDemo.h; sourceTree = "<group>"; };
 		160739CD1A3FC90900BC3261 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../../Assets; sourceTree = "<group>"; };
 		160739D11A3FC97200BC3261 /* Oculus.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Oculus.icns; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		16073A241A3FCB7300BC3261 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		16073A261A3FCBE900BC3261 /* CameraCalibration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CameraCalibration.json; path = ../../CameraCalibration.json; sourceTree = "<group>"; };
 		707BF3ED1A8EF54700720128 /* LibOVR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibOVR.framework; path = "/Users/jhillery/Perforce/jhillery-mbp/depot/Software/OculusSDK/0.4/Main/LibOVR/Projects/Mac/../../Lib/Mac/Debug/LibOVR.framework"; sourceTree = "<absolute>"; };
+		913E498A1E7B791A00A1FF22 /* OculusWorldDывываываывemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "OculusWorldDывываываывemo.cpp"; path = "../../../../../../.Trash/OculusWorldDывываываывemo.cpp"; sourceTree = "<group>"; };
 		E8CC57C71908266300EEEC84 /* OculusWorldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OculusWorldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CC57CA1908266300EEEC84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E8CC57CD1908266300EEEC84 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -166,10 +166,10 @@
 		E8CC57BE1908266300EEEC84 = {
 			isa = PBXGroup;
 			children = (
+				913E498A1E7B791A00A1FF22 /* OculusWorldDывываываывemo.cpp */,
 				160739C51A3FC8CB00BC3261 /* Player.h */,
 				160739C61A3FC8CB00BC3261 /* Player.cpp */,
 				160739C71A3FC8CB00BC3261 /* OculusWorldDemo_Scene.cpp */,
-				160739C81A3FC8CB00BC3261 /* OculusWorldDemo.cpp */,
 				160739C91A3FC8CB00BC3261 /* OculusWorldDemo.h */,
 				16073A261A3FCBE900BC3261 /* CameraCalibration.json */,
 				160739CD1A3FC90900BC3261 /* Assets */,
@@ -247,7 +247,7 @@
 		E8CC57BF1908266300EEEC84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Oculus VR Inc.";
 			};
 			buildConfigurationList = E8CC57C21908266300EEEC84 /* Build configuration list for PBXProject "OculusWorldDemo" */;
@@ -286,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160739CC1A3FC8CB00BC3261 /* OculusWorldDemo.cpp in Sources */,
 				16073A1C1A3FC97200BC3261 /* Render_GL_Device.cpp in Sources */,
 				16073A231A3FC97200BC3261 /* RenderProfiler.cpp in Sources */,
 				16073A1B1A3FC97200BC3261 /* Render_Device.cpp in Sources */,
@@ -297,6 +296,7 @@
 				16073A1E1A3FC97200BC3261 /* Render_LoadTextureDDS.cpp in Sources */,
 				160739CA1A3FC8CB00BC3261 /* Player.cpp in Sources */,
 				16073A121A3FC97200BC3261 /* Platform.cpp in Sources */,
+				913E498B1E7B791A00A1FF22 /* OculusWorldDывываываывemo.cpp in Sources */,
 				16073A211A3FC97200BC3261 /* Render_XmlSceneLoader.cpp in Sources */,
 				16073A0F1A3FC97200BC3261 /* OSX_Gamepad.cpp in Sources */,
 				16073A101A3FC97200BC3261 /* OSX_Platform.mm in Sources */,
@@ -320,15 +320,21 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -360,16 +366,21 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -384,7 +395,6 @@
 		E8CC57F91908266300EEEC84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -417,6 +427,7 @@
 				OBJROOT = "$(SRCROOT)/../../Obj/Mac/$CONFIGURATION";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lOVRKernel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oculusvr.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SYMROOT = "$(SRCROOT)/../../Bin/Mac/$CONFIGURATION";
@@ -427,7 +438,6 @@
 		E8CC57FA1908266300EEEC84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -460,6 +470,7 @@
 				OBJROOT = "$(SRCROOT)/../../Obj/Mac/$CONFIGURATION";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lOVRKernel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oculusvr.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SYMROOT = "$(SRCROOT)/../../Bin/Mac/$CONFIGURATION";

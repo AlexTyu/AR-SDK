@@ -963,6 +963,8 @@ typedef struct ovrDistortionMesh_
     unsigned int         IndexCount;  ///< The number of indices in the mesh.
 } ovrDistortionMesh;
 
+    
+//Вероятно тут
 /// Generate distortion mesh per eye.
 /// Distortion capabilities will depend on 'distortionCaps' flags. Users should 
 /// render using the appropriate shaders based on their settings.

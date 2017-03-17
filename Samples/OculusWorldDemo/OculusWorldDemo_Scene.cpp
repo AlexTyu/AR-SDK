@@ -195,6 +195,8 @@ void OculusWorldDemoApp::PopulatePreloadScene()
 
         LoadingScene.World.Add(m);
     }
+    
+
 }
 
 void OculusWorldDemoApp::ClearScene()
